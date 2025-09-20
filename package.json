@@ -10,13 +10,24 @@
     "install-server": "cd backend && npm install",
     "install-client": "cd frontend && npm install",
     "install-all": "npm run install-server && npm run install-client",
-    "start": "cd backend && npm start",
-    "test": "concurrently \"cd backend && npm test\" \"cd frontend && npm test\""
+    "start": "cd backend && npm start"
   },
-  "keywords": ["attendance", "education", "school", "management", "react", "nodejs"],
+  "keywords": [
+    "attendance",
+    "education",
+    "school",
+    "management",
+    "react",
+    "nodejs"
+  ],
   "author": "Your Name",
   "license": "MIT",
   "devDependencies": {
-    "concurrently": "^8.2.0"
-  }
+    "concurrently": "^8.2.2"
+  },
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "type": "commonjs"
 }
